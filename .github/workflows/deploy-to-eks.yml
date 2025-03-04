@@ -2,11 +2,11 @@ name: Deploy to Amazon EKS
 
 on:
   push:
-    branches: [ main ]
+    branches: [ master ]
   workflow_dispatch:
 
 env:
-  AWS_REGION: us-east-1  # Change this to your desired AWS region
+  AWS_REGION: us-west-1  # Change this to your desired AWS region
 
 jobs:
   deploy:
